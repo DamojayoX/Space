@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>DamoJay - Portfolio Website</title>
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css" />
+    <!-- Font awesome -->
+    <script
+      src="https://kit.fontawesome.com/e6b8371d90.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+
+  <body>
+    <!-- Header section -->
+    <div id="header">
+      <div class="container">
+        <nav>
+          <img src="logo.png.png" alt="logo image" class="logo" />
+          <ul id="sidemenu">
+            <li><a href="#">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#works">Portfolio</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+          </ul>
+          <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+          
+          <h1>
+            
+Let’s build from here <span>The world’s leading AI-powered developer platform.</span> <br />
+            
+          </h1>
+        </div>
+      </div>
+    </div>
+
+    <!-- About section -->
+    <div id="about">
+      <div class="container">
+        <div class="row">
+          <div class="about-col-1">
+            <img src="illu-copilot-sidebar-3d2efb504577.png" alt="" />
+          </div>
+          <div class="about-col-2">
+            <h1 class="sub-title">About Us</h1>
+            <p>
+             
+Productivity
+Accelerate innovation
+Our AI-powered platform increases the pace of software development.
+            </p>
+            <div class="tab-titles">
+              <p class="tab-links active-link" onclick="opentab('skills')">
+                Skills
+              </p>
+              <p class="tab-links" onclick="opentab('experience')">
+                Experience
+              </p>
+              <p class="tab-links" onclick="opentab('education')">Education</p>
+            </div>
+            <div class="tab-contents active-tab" id="skills">
+              <ul>
+                <li><span>UI/UX</span><br />Designing Web/App interfaces</li>
+                <li><span>Web Development</span><br />Web app development</li>
+                <li>
+                  <span>App Development</span><br />Building Android/Ios apps
+                </li>
+              </ul>
+            </div>
+            <div class="tab-contents" id="experience">
+              <ul>
+                <li>
+                  <span>2022 - Current</span><br />UI/UX Design Training at Trasvery
+                Media
+                </li>
+                <li><span>2022 - Current</span><br />Building Projects.</li>
+                <li>
+                  <span>2022 - Current</span><br /> Ecommerce websites
+                </li>
+              </ul>
+            </div>
+            <div class="tab-contents" id="education">
+              <ul>
+                <li>
+                  <span>2022</span><br />UI/UX Design Training at Trasvery media
+                </li>
+                <li><span>2023</span><br />Building Projects</li>
+                <li><span>2023</span><br />Building Projects</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Services section -->
+    <div id="services">
+      <div class="container">
+        <h1 class="sub-title">Our Services</h1>
+        <div class="services-list">
+          <div>
+            <i class="fa-solid fa-code"></i>
+            <h2>Web Development</h2>
+            <p>
+              If you are looking for a developer who'll take over the research and development of your website,
+               I am a well-established professional to help you with this
+            </p>
+            <a href="#">Learn more</a>
+          </div>
+          <div>
+            <i class="fa-solid fa-pen-nib"></i>
+            <h2>UI/UX Design</h2>
+            <p>
+             An effective Graphics Design is what captures attention and spreads a clear message. 
+             I make sure the design is innovative and neat with all of this.
+            </p>
+            <a href="#">Learn more</a>
+          </div>
+          <div>
+            <i class="fa-brands fa-app-store-ios"></i>
+            <h2>App Development</h2>
+            <p>
+              An effective Apss Development is what captures attention and spreads a clear message. 
+             I make sure the design is innovative and neat with all of this.
+            </p>
+            <a href="#">Learn more</a>
+          </div>
+        </div>
+      </div>
+    </div>
+<section class="skill" id="skill">
+         <div class="skills"> <div class="right-content">
+               <div style="font-size: 3rem;"> <h1 class="skills-heading" style="font-size: 3rem;">Our
+                 <span style="font-size: 3rem;">Skills</span></h1>
+               </div>
+               <div class="skills-bar"> <div class="bar">
+                  <div class="info"> <span>HTML</span> </div>
+                  <div class="progress-line"><span class="html"></span></div> 
+                  <div class="bar"> <div class="info">
+                     <span>CSS</span> </div> <div class="progress-line"><span class="css"></span></div>
+                     <div class="bar"> <div class="info"> <span>BOOTSTRAP</span>
+                     </div>
+                     <div class="progress-line"><span class="bootstrap"></span></div> <div class="bar"> 
+                     <div class="info">
+                        <span>JAVASCRIPT</span>
+                        </div> 
+                        <div class="progress-line">
+                          <span class="javascript"></span></div>
+                          <div class="bar"> <div class="info"> 
+                          <span>React</span> </div> 
+                          <div class="progress-line">
+                            <span class="c"></span></div>
+                            </div>
+                         </div> 
+                        </div> 
+                    </div>
+                 </div>
+                 </div> 
+                 </section>
+    <!-- Works section -->
+    <div id="works">
+      <div class="container">
+        <h1 class="sub-title">Our Works</h1>
+        <div class="works-list">
+          <div class="work">
+            <img src="images (2).jpeg" alt="work-1" />
+            <div class="layer">
+              <h3>Social Media space</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis
+                iusto repellendus ipsam excepturi aliquid!
+              </p>
+              <a href="#"
+                ><i class="fa fa-external-link" aria-hidden="true"></i
+              ></a>
+            </div>
+          </div>
+          <div class="work">
+            <img src="images (1).jpeg" alt="work-2" />
+            <div class="layer">
+              <h3>Music space</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis
+                iusto repellendus ipsam excepturi aliquid!
+              </p>
+             
+              <a href="#"
+                ><i class="fa fa-external-link" aria-hidden="true"></i
+              ></a>
+            </div>
+          </div>
+          <div class="work">
+            <img src="images.jpeg" alt="work-3" />
+            <div class="layer">
+              <h3>Online Shopping space</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis
+                iusto repellendus ipsam excepturi aliquid!
+              </p>
+              <a href="#"
+                ><i class="fa fa-external-link" aria-hidden="true"></i
+              ></a>
+            </div>
+          </div>
+        </div>
+        <a href="#" class="btn">See more</a>
+      </div>
+    </div>
+
+    <!-- Contact section -->
+    <div id="contact">
+      <div class="container">
+        <div class="row">
+          <div class="contact-left">
+            <h1 class="sub-title">Contact Us</h1>
+            <p><i class="fa-solid fa-paper-plane"></i>daraoaloye1@gmail.com</p>
+            <p>
+              <i class="fa-solid fa-square-phone-flip"></i>+234 90 6749 2106
+            </p>
+            <div class="social-icons">
+              <a href="https://www.facebook.com/olaoye.dara"><i class="fa-brands fa-facebook"></i></a>
+              <a href="#"><i class="fa-brands fa-instagram"></i></a>
+              <a href="#"><i class="fa-brands fa-twitter"></i></a>
+              <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+            </div>
+            <a href="assets/Resume.pdf" class="btn btn2" download>Download CV</a>
+          </div>
+          <div class="contact-right">
+            <form action="">
+              <input type="text" name="Name" placeholder="Your Name" required />
+              <input
+                type="email"
+                name="Email"
+                placeholder="Your Email"
+                required
+              />
+              <textarea
+                name="Message"
+                rows="6"
+                placeholder="Your Message"
+              ></textarea>
+              <button type="submit" class="btn btn2">Submit</button>
+            </form>
+          </div>
+        </div>
+      </div>
+      <div class="copyright">
+        <p>
+          Copyright ©️ DAMOJAY. Made with <i class="fa-solid fa-heart"></i> by
+          <a href="#">DAMOJAY</a>
+        </p>
+      </div>
+    </div>
+
+    
+
+    <script src="script.js">
+     
+    </script>
+  </body>
+</html>
